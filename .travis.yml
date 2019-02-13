@@ -1,6 +1,7 @@
 language: node_js
 cache: npm
 script:
+  - set -e
   - ./generate-json
   - curl -sL scripts.piet.me/ci/setup-git | bash
   - git add updates.json
