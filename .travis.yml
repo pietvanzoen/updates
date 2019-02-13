@@ -1,0 +1,8 @@
+language: node_js
+cache: npm
+script:
+  - ./generate-json
+  - curl -sL scripts.piet.me/ci/setup-git | bash
+  - git add updates.json
+  - git commit -m 'update json [skip ci]' || true
+  - git push

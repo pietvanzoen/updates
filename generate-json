@@ -1,0 +1,21 @@
+#!/usr/bin/env node
+// parses markdown files and generates json file listing
+
+const fs = require("fs");
+const matter = require("gray-matter");
+const md = require("markdown-it")();
+const UPDATE_FILES_REGEX = /\d{4}-\d{2}-\d{2}-.*\.md$/;
+
+const updates = fs
+  .readdirSync(".")
+  .filter(file => UPDATE_FILES_REGEX.test(file))
+  .map(file => {
+    const data = matter.read(file);
+    data.content = {
+      raw: data.content,
+      html: md.render(data.content)
+    };
+    return data;
+  });
+
+fs.writeFileSync("updates.json", JSON.stringify(updates, null, 2));

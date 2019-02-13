@@ -1,0 +1,24 @@
+{
+  "name": "updates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gray-matter": "^4.0.2",
+    "markdown-it": "^8.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pietvanzoen/updates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pietvanzoen/updates/issues"
+  },
+  "homepage": "https://github.com/pietvanzoen/updates#readme"
+}
