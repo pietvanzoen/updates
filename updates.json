@@ -2,6 +2,18 @@
   "updates": [
     {
       "content": {
+        "raw": "hiiiiii\n",
+        "html": "<p>hiiiiii</p>\n"
+      },
+      "data": {
+        "date": "2019-02-10T19:16:53.569Z"
+      },
+      "isEmpty": false,
+      "excerpt": "",
+      "path": "2019-02-10-hiiiiii.md"
+    },
+    {
+      "content": {
         "raw": "foobar\n",
         "html": "<p>foobar</p>\n"
       },
@@ -11,18 +23,6 @@
       "isEmpty": false,
       "excerpt": "",
       "path": "2019-02-10-foobar.md"
-    },
-    {
-      "content": {
-        "raw": "hello world\n",
-        "html": "<p>hello world</p>\n"
-      },
-      "data": {
-        "date": "2019-02-10T09:51:05.422Z"
-      },
-      "isEmpty": false,
-      "excerpt": "",
-      "path": "2019-02-10-hello-world.md"
     },
     {
       "content": {
@@ -38,15 +38,15 @@
     },
     {
       "content": {
-        "raw": "hiiiiii\n",
-        "html": "<p>hiiiiii</p>\n"
+        "raw": "hello world\n",
+        "html": "<p>hello world</p>\n"
       },
       "data": {
-        "date": "2019-02-10T19:16:53.569Z"
+        "date": "2019-02-10T09:51:05.422Z"
       },
       "isEmpty": false,
       "excerpt": "",
-      "path": "2019-02-10-hiiiiii.md"
+      "path": "2019-02-10-hello-world.md"
     },
     {
       "content": {
