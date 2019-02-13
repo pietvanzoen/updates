@@ -18,4 +18,4 @@ const updates = fs
     return data;
   });
 
-fs.writeFileSync("updates.json", JSON.stringify(updates, null, 2));
+fs.writeFileSync("updates.json", JSON.stringify({ updates }, null, 2));
