@@ -16,6 +16,7 @@ const updates = fs
       html: md.render(data.content)
     };
     return data;
-  });
+  })
+  .sort((a, b) => a.data.date < b.data.date);
 
 fs.writeFileSync("updates.json", JSON.stringify({ updates }, null, 2));
