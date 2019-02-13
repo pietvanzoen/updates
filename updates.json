@@ -1,3 +1,16 @@
 {
-  "updates": []
+  "updates": [
+    {
+      "content": {
+        "raw": "is this working?\n",
+        "html": "<p>is this working?</p>\n"
+      },
+      "data": {
+        "date": "2019-02-13T08:47:08.335Z"
+      },
+      "isEmpty": false,
+      "excerpt": "",
+      "path": "2019-02-13-is-this-working.md"
+    }
+  ]
 }
