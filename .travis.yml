@@ -10,7 +10,9 @@ script:
   - git checkout --force gh-pages
   - cp $UPDATES_JSON updates.json
   - git add updates.json
-  - git commit -m 'update json [skip ci]' || true
+  - git checkout master -- media
+  - git add media
+  - git commit -m 'update json and media [skip ci]' || true
   - git push
 
 env:
