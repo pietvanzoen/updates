@@ -1,10 +1,14 @@
 language: node_js
 cache: npm
 
-script:
+before_script:
   - set -e
-  - ./generate-json
+  - export UPDATES_JSON=$(mktemp)
+script:
+  - ./generate-json > $UPDATES_JSON
   - curl -sL scripts.piet.me/ci/setup-git | bash
+  - git checkout --force gh-pages
+  - cp $UPDATES_JSON updates.json
   - git add updates.json
   - git commit -m 'update json [skip ci]' || true
   - git push
