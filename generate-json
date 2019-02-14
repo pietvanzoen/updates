@@ -11,9 +11,10 @@ const updates = fs
   .filter(file => UPDATE_FILES_REGEX.test(file))
   .map(file => {
     const data = matter.read(file);
+    const content = updateMediaURLs(data.content);
     data.content = {
-      raw: data.content,
-      html: md.render(data.content)
+      raw: content,
+      html: md.render(content)
     };
     return data;
   })
@@ -21,3 +22,10 @@ const updates = fs
 
 // eslint-disable-next-line
 console.log(JSON.stringify({ updates }));
+
+function updateMediaURLs(content) {
+  return content.replace(
+    "![](/media",
+    "![](https://pietvanzoen.github.io/updates/media"
+  );
+}
