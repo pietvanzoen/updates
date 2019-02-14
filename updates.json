@@ -2,6 +2,18 @@
   "updates": [
     {
       "content": {
+        "raw": "This is my touch bar\n",
+        "html": "<p>This is my touch bar</p>\n"
+      },
+      "data": {
+        "date": "2019-02-14T08:13:49.114Z"
+      },
+      "isEmpty": false,
+      "excerpt": "",
+      "path": "2019-02-14-this-is-my-touch-bar.md"
+    },
+    {
+      "content": {
         "raw": "Hello world\n",
         "html": "<p>Hello world</p>\n"
       },
