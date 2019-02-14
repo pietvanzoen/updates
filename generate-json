@@ -19,4 +19,10 @@ const updates = fs
   })
   .sort((a, b) => a.data.date < b.data.date);
 
-fs.writeFileSync("updates.json", JSON.stringify({ updates }, null, 2));
+fs.writeFileSync(
+  "updates.json",
+  JSON.stringify({
+    "//": "This file is auto generated. Do not edit directly.",
+    updates
+  })
+);
