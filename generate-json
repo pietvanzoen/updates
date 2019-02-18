@@ -25,7 +25,7 @@ console.log(JSON.stringify({ updates }));
 
 function updateMediaURLs(content) {
   return content.replace(
-    "![](/media",
-    "![](https://pietvanzoen.github.io/updates/media"
+    "](/media",
+    "](https://pietvanzoen.github.io/updates/media"
   );
 }
