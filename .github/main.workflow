@@ -4,6 +4,6 @@ workflow "New workflow" {
 }
 
 action "generate-json" {
-  uses = "debian"
+  uses = "pietvanzoen/updates@master"
   runs = "./generate-json"
 }
