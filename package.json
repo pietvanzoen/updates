@@ -7,9 +7,13 @@
     "gray-matter": "^4.0.2",
     "markdown-it": "^8.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.10.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape lib/**/*.test.js | tap-spec"
   },
   "repository": {
     "type": "git",

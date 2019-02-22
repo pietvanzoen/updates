@@ -2,31 +2,17 @@
 // parses markdown files and generates json file listing
 
 const fs = require("fs");
-const matter = require("gray-matter");
-const md = require("markdown-it")();
 const UPDATE_FILES_REGEX = /\d{4}-\d{2}-\d{2}-.*\.md$/;
+const processFiles = require("./lib/process-files");
 
-const updates = fs
+const files = fs
   .readdirSync(".")
   .filter(file => UPDATE_FILES_REGEX.test(file))
-  .map(file => {
-    const data = matter.read(file);
-    const content = updateMediaURLs(data.content);
-    data.content = {
-      raw: content,
-      html: md.render(content)
-    };
-    return data;
-  })
-  .sort((a, b) => new Date(a.data.date) - new Date(b.data.date))
-  .reverse();
+  .map(file => fs.readFileSync(file));
+
+const processor = processFiles({
+  mediaPrefix: "https://pietvanzoen.github.io/updates"
+});
 
 // eslint-disable-next-line
-console.log(JSON.stringify({ updates }));
-
-function updateMediaURLs(content) {
-  return content.replace(
-    "](/media",
-    "](https://pietvanzoen.github.io/updates/media"
-  );
-}
+console.log(JSON.stringify({ updates: processor(files) }));
