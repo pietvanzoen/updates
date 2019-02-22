@@ -18,7 +18,8 @@ const updates = fs
     };
     return data;
   })
-  .sort((a, b) => a.data.date < b.data.date);
+  .sort((a, b) => new Date(a.data.date) - new Date(b.data.date))
+  .reverse();
 
 // eslint-disable-next-line
 console.log(JSON.stringify({ updates }));
