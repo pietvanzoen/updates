@@ -5,6 +5,7 @@ before_script:
   - set -e
   - export UPDATES_JSON=$(mktemp)
 script:
+  - yarn test
   - ./generate-json > $UPDATES_JSON
   - curl -sL scripts.piet.me/ci/setup-git | bash
   - git checkout --force gh-pages
