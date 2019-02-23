@@ -5,7 +5,8 @@
   "main": "index.js",
   "dependencies": {
     "gray-matter": "^4.0.2",
-    "markdown-it": "^8.4.2"
+    "markdown-it": "^8.4.2",
+    "open-graph-scraper": "^3.6.1"
   },
   "devDependencies": {
     "eslint": "^5.14.1",

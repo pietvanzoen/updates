@@ -4,6 +4,7 @@
 const fs = require("fs");
 const UPDATE_FILES_REGEX = /\d{4}-\d{2}-\d{2}-.*\.md$/;
 const processFiles = require("./lib/process-files");
+const ogs = require("open-graph-scraper");
 
 const files = fs
   .readdirSync(".")
@@ -14,5 +15,19 @@ const processor = processFiles({
   mediaPrefix: "https://pietvanzoen.github.io/updates"
 });
 
-// eslint-disable-next-line
-console.log(JSON.stringify({ updates: processor(files) }));
+const updates = processor(files);
+
+Promise.all(
+  updates.map(update => {
+    if (update.links.length === 0) return Promise.resolve(update);
+    return ogs({ url: update.links[0] })
+      .then(result => {
+        update.linkData = result;
+        return update;
+      })
+      .catch(() => update);
+  })
+).then(updates => {
+  // eslint-disable-next-line
+  console.log(JSON.stringify({ updates }, null, 2));
+});
