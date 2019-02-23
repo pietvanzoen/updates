@@ -5,8 +5,13 @@
   "main": "index.js",
   "dependencies": {
     "gray-matter": "^4.0.2",
+    "image-size": "^0.7.2",
+    "imagemin-cli": "^4.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0",
     "markdown-it": "^8.4.2",
-    "open-graph-scraper": "^3.6.1"
+    "open-graph-scraper": "^3.6.1",
+    "sharp": "^0.21.3"
   },
   "devDependencies": {
     "eslint": "^5.14.1",

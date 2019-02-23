@@ -4,14 +4,16 @@ cache: npm
 before_script:
   - set -e
   - export UPDATES_JSON=$(mktemp)
+  - export OPTIMIZED_MEDIA_DIR=$(mktemp -d)
 script:
   - yarn test
   - ./generate-json > $UPDATES_JSON
+  - ./optimize-media $OPTIMIZED_MEDIA_DIR
   - curl -sL scripts.piet.me/ci/setup-git | bash
   - git checkout --force gh-pages
-  - cp $UPDATES_JSON updates.json
+  - cp -v $UPDATES_JSON updates.json
+  - cp -vr $OPTIMIZED_MEDIA_DIR media
   - git add updates.json
-  - git checkout master -- media
   - git add media
   - git commit -m 'update json and media [skip ci]' || true
   - git push
