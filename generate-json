@@ -6,10 +6,7 @@ const UPDATE_FILES_REGEX = /\d{4}-\d{2}-\d{2}-.*\.md$/;
 const processFiles = require("./lib/process-files");
 const ogs = require("open-graph-scraper");
 
-const files = fs
-  .readdirSync(".")
-  .filter(file => UPDATE_FILES_REGEX.test(file))
-  .map(file => fs.readFileSync(file));
+const files = fs.readdirSync(".").filter(file => UPDATE_FILES_REGEX.test(file));
 
 const processor = processFiles({
   mediaPrefix: "https://pietvanzoen.github.io/updates"
