@@ -21,7 +21,7 @@ Promise.all(
   updates.map(update => {
     if (update.links.length === 0) return Promise.resolve(update);
     const url = update.links[0];
-    return ogs({ url })
+    return ogs({ url, followAllRedirects: true })
       .then(result => {
         console.error("Successfully fetched data for " + url);
         update.linkData = result.data;
