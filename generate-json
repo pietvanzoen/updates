@@ -33,5 +33,5 @@ Promise.all(
       });
   })
 ).then(updates => {
-  console.log(JSON.stringify({ updates }, null, 2));
+  console.log(JSON.stringify({ updates }));
 });
