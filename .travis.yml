@@ -12,7 +12,7 @@ script:
   - curl -sL scripts.piet.me/ci/setup-git | bash
   - git checkout --force gh-pages
   - cp -v $UPDATES_JSON updates.json
-  - cp -vr $OPTIMIZED_MEDIA_DIR media
+  - cp -vr $OPTIMIZED_MEDIA_DIR media/
   - git add updates.json
   - git add media
   - git commit -m 'update json and media [skip ci]' || true
