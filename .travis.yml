@@ -1,11 +1,12 @@
 language: node_js
 cache:
   directories:
-    - $HOME/.npm
+    - .yarn-cache
     - node_modules
 
 before_script:
   - set -e
+  - yarn install --frozen-lockfile --cache-folder .yarn-cache
   - export UPDATES_JSON=$(mktemp)
   - export OPTIMIZED_MEDIA_DIR=$(mktemp -d)
 script:
