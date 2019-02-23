@@ -24,7 +24,7 @@ Promise.all(
     return ogs({ url })
       .then(result => {
         console.error("Successfully fetched data for " + url);
-        update.linkData = result;
+        update.linkData = result.data;
         return update;
       })
       .catch(err => {
