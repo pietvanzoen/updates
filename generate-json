@@ -20,14 +20,18 @@ const updates = processor(files);
 Promise.all(
   updates.map(update => {
     if (update.links.length === 0) return Promise.resolve(update);
-    return ogs({ url: update.links[0] })
+    const url = update.links[0];
+    return ogs({ url })
       .then(result => {
+        console.error("Successfully fetched data for " + url);
         update.linkData = result;
         return update;
       })
-      .catch(() => update);
+      .catch(err => {
+        console.error("Error: failed to fetch data for " + url, err);
+        return update;
+      });
   })
 ).then(updates => {
-  // eslint-disable-next-line
   console.log(JSON.stringify({ updates }, null, 2));
 });
