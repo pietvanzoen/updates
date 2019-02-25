@@ -5,9 +5,9 @@ twitter: ["https://twitter.com/pietvanzoen/status/1099920946415194112"]
 ---
 Wife reading an animal picture book to the 1 y/o. 
 
-Wife: Tiger. Roar!<br>
-1 y/o: ...<br>
-Wife: Fish. Glug glug, glug glug.<br>
-1 y/o: ...<br>
-Wife: Giraffe... 🤔 I’m a giraffe!!<br>
+Wife: Tiger. Roar!
+1 y/o: ...
+Wife: Fish. Glug glug, glug glug.
+1 y/o: ...
+Wife: Giraffe... 🤔 I’m a giraffe!!
 1 y/o: 🤨
