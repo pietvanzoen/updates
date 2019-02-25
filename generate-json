@@ -2,33 +2,18 @@
 // parses markdown files and generates json file listing
 
 const fs = require("fs");
-const UPDATE_FILES_REGEX = /\d{4}-\d{2}-\d{2}-.*\.md$/;
 const processFiles = require("./lib/process-files");
-const ogs = require("open-graph-scraper");
 
-const files = fs.readdirSync(".").filter(file => UPDATE_FILES_REGEX.test(file));
+const files = fs
+  .readdirSync(".")
+  .filter(file => /\d{4}-\d{2}-\d{2}-.*\.md$/.test(file));
 
-const processor = processFiles({
+processFiles({
   mediaPrefix: "https://pietvanzoen.github.io/updates"
-});
-
-const updates = processor(files);
-
-Promise.all(
-  updates.map(update => {
-    if (update.links.length === 0) return Promise.resolve(update);
-    const url = update.links[0];
-    return ogs({ url, followAllRedirects: true })
-      .then(result => {
-        console.error("Successfully fetched data for " + url);
-        update.linkData = result.data;
-        return update;
-      })
-      .catch(err => {
-        console.error("Error: failed to fetch data for " + url, err);
-        return update;
-      });
+})(files)
+  .then(updates => {
+    console.log(JSON.stringify({ updates }));
   })
-).then(updates => {
-  console.log(JSON.stringify({ updates }));
-});
+  .catch(err => {
+    console.error(err);
+  });
