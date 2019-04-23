@@ -1,6 +1,7 @@
 ---
 date: 2019-04-23T06:47:34.791099Z
 mastodon: ["https://mastodon.social/@pietvanzoen/101974150631039332"]
+twitter: ["https://twitter.com/pietvanzoen/status/1120580253565501440"]
 ---
 This is a big reason why I still use lodash or Ramda in a number of my projects. Clever code is rarely readable code. It feels good when you write it, but in a team working on production code readability is your no. 1 priority. 
 
