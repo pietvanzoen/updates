@@ -1,5 +1,7 @@
 ---
 date: 2019-04-27T05:14:59.835107Z
+twitter: ["https://twitter.com/pietvanzoen/status/1122004537726906368"]
+---
 ---
 It’s easy to forget that part of learning to code is learning how to even get a program running, which is often more confusing/frustrating than the code. 
 https://twitter.com/schmichael/status/1121823147118850048?s=21
