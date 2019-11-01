@@ -1,5 +1,6 @@
 ---
 date: 2019-11-01T14:36:38.611822Z
+twitter: [https://twitter.com/pietvanzoen/status/1190276285211258880]
 ---
 I periodically dream about this. Except it’s a record store. 
 
