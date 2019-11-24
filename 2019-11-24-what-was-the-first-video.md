@@ -1,5 +1,6 @@
 ---
 date: 2019-11-24T08:29:31.117871Z
+twitter: ["https://twitter.com/pietvanzoen/status/1198518955939368960?s=21"]
 ---
 What was the first video game you remember playing?
 
