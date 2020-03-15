@@ -1,6 +1,6 @@
 ---
 date: 2020-03-15T19:59:51.200092Z
-mastodon: ["https://mastodon.social/@pietvanzoen/103828841500564925"]
-twitter: ["https://twitter.com/pietvanzoen/status/1239280165362061318"]
+mastodon: []
+twitter: []
 ---
-![](/media/2020-03-15-isolation.jpeg)
+![A couple weeks of isolation with the family. What could go wrong?](/media/2020-03-15-isolation.jpg)
