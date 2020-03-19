@@ -1,6 +1,6 @@
 ---
 date: 2020-03-19T06:07:15.730015Z
-twitter: ["https://twitter.com/pietvanzoen/status/1240520188996595712"]
+twitter: ["https://twitter.com/pietvanzoen/status/1240520511068819456"]
 ---
 Home isolation means discovering long forgotten mugs at the back of the cupboard. ☕️💖 @needmore@twitter.com
 
