@@ -1872,11 +1872,6 @@ ignore@^4.0.6:
   resolved "https://npm.staging.nxdev.nl/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
-image-size@^0.7.2:
-  version "0.7.5"
-  resolved "https://npm.staging.nxdev.nl/image-size/-/image-size-0.7.5.tgz#269f357cf5797cb44683dfa99790e54c705ead04"
-  integrity sha512-Hiyv+mXHfFEP7LzUL/llg9RwFxxY+o9N3JVLIeG5E7iFIFAalxvRU9UZthBdYDEVnzHMgjnKJPPpay5BWf1g9g==
-
 imagemin-cli@^4.0.0:
   version "4.0.1"
   resolved "https://npm.staging.nxdev.nl/imagemin-cli/-/imagemin-cli-4.0.1.tgz#121f41a92b55b42935ce0b1b7f477de450bfd202"
