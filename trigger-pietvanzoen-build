@@ -1,7 +1,7 @@
 #!/bin/bash
-set -e
+set -ex
 
-curl -H "Accept: application/vnd.github.everest-preview+json" \
+curl -v -H "Accept: application/vnd.github.everest-preview+json" \
   -H "Authorization: token $GITHUB_TOKEN" \
   --request POST \
   --data '{"event_type": "trigger-build"}' \
