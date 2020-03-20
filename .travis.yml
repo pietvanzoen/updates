@@ -22,7 +22,6 @@ script:
   - git add media
   - git commit -m 'update json and media [skip ci]' || true
   - git push
-after_script:
   - ./trigger-pietvanzoen-build
 
 env:
