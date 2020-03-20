@@ -22,6 +22,9 @@ script:
   - git add media
   - git commit -m 'update json and media [skip ci]' || true
   - git push
+
+after_script:
+  - git checkout --force $TRAVIS_BRANCH
   - ./trigger-pietvanzoen-build
 
 env:
