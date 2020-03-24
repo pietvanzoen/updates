@@ -8,6 +8,7 @@
     "imagemin-cli": "^4.0.0",
     "imagemin-jpegtran": "^6.0.0",
     "imagemin-pngquant": "^7.0.0",
+    "is-gif": "^3.0.0",
     "markdown-it": "^8.4.2",
     "open-graph-scraper": "^3.6.1",
     "sharp": "^0.23.2"
