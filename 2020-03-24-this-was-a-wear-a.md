@@ -1,5 +1,6 @@
 ---
 date: 2020-03-24T17:39:48.425797Z
+twitter: ["https://twitter.com/pietvanzoen/status/1242506682296684550"]
 ---
 This was a ‘wear a robe over your normal cloths all day’ and ‘let the toddler play on the iPad’ kind of a day. 
 
