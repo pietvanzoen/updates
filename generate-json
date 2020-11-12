@@ -12,7 +12,7 @@ processFiles({
   mediaPrefix: "https://pietvanzoen.github.io/updates"
 })(files)
   .then(updates => {
-    console.log(JSON.stringify({ updates }));
+    console.log(JSON.stringify({ updates }, null, 2));
   })
   .catch(err => {
     console.error(err);
