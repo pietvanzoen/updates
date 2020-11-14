@@ -2,6 +2,26 @@
   "updates": [
     {
       "data": {
+        "date": "2020-11-07T18:30:00.000Z"
+      },
+      "isEmpty": false,
+      "excerpt": "",
+      "path": "2020-11-07-happy-day.md",
+      "content": "😬 https://twitter.com/nocontextpawnee/status/1325115652802138114\n",
+      "html": "<p>😬 <a href=\"https://twitter.com/nocontextpawnee/status/1325115652802138114\">https://twitter.com/nocontextpawnee/status/1325115652802138114</a></p>\n",
+      "links": [
+        "https://twitter.com/nocontextpawnee/status/1325115652802138114"
+      ],
+      "linkData": [
+        {
+          "ogSiteName": "Twitter",
+          "ogImage": [],
+          "url": "https://twitter.com/nocontextpawnee/status/1325115652802138114"
+        }
+      ]
+    },
+    {
+      "data": {
         "date": "2020-11-04T15:21:04.624Z",
         "mastodon": [
           "https://mastodon.social/@pietvanzoen/105152725944300948"
@@ -24,7 +44,7 @@
           "ogDescription": "Frida is our cat. She was born 17th April 2020. Here are some cute photos of her to help you through your day.",
           "ogImage": [
             {
-              "url": "/public/images/e6c9f1402e.jpg"
+              "url": "/public/images/85d2ceb17f.jpg"
             }
           ],
           "url": "https://emergencyfrida.com"
@@ -649,10 +669,10 @@
           "ogDescription": "SolFar Laptop Ständer Faltbar Höhenverstellbar für: Amazon.de: Elektronik",
           "ogImage": [
             {
-              "url": "https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-reorg._CB407363159_.png"
+              "url": "https://images-eu.ssl-images-amazon.com/images/G/03/gno/sprites/nav-sprite-global-1x-hm-dsk-reorg._CB405937709_.png"
             },
             {
-              "url": "https://images-eu.ssl-images-amazon.com/images/G/03/AMAZON-FASHION/2020/FASHION/InStyle/GATEWAY/GW_DESKT_SWMS_INSTYLE_DE_400x39_V2._CB418895201_.jpg"
+              "url": "https://images-eu.ssl-images-amazon.com/images/G/03/AudibleDE/de_DE/img/partner/amazon/promos/content/2020/J0064_LM_GW_SWM_Update_400x39_v2._CB434937031_.jpg"
             },
             {
               "url": "https://images-eu.ssl-images-amazon.com/images/G/03/DE-hq/2020/img/X_Site/XCM_Manual_1274401_1406608_DE_HOD20_DE_ILM_3436309_650x45_1X_de_DE._CB418852978_.jpg"
@@ -661,10 +681,10 @@
               "url": "https://m.media-amazon.com/images/I/51HhXiT3AcL._AA65_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41x-JtXcCYL._AA65_.jpg"
+              "url": "https://m.media-amazon.com/images/I/416QSlH+LvL._AA65_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/416QSlH+LvL._AA65_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41x-JtXcCYL._AA65_.jpg"
             },
             {
               "url": "https://images-na.ssl-images-amazon.com/images/I/41d8kTQZsNL._AC_US40_.jpg"
@@ -682,7 +702,7 @@
               "url": "https://images-na.ssl-images-amazon.com/images/I/41j0zyt4-%2BL._AC_US40_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/71NMHsDbh1L._SS100_.jpg"
+              "url": "https://m.media-amazon.com/images/I/71F2TeaHwCL._SS100_.jpg"
             },
             {
               "url": "https://m.media-amazon.com/images/I/41008tFoe7L._AC_UL160_SR160,160_.jpg"
@@ -691,34 +711,34 @@
               "url": "https://m.media-amazon.com/images/I/41008tFoe7L._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41ZJobwDCJL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41q3TFM2hRL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41ZJobwDCJL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41q3TFM2hRL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/51Nh-BXsw5L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/51gHD+W-JKL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/51Nh-BXsw5L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/51gHD+W-JKL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41HL0P63NOL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/51HXf-DWplL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41HL0P63NOL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/51HXf-DWplL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41PSN852+zL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41K-cpm4WmL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41PSN852+zL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41K-cpm4WmL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41QBXcgip8L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41HYLYpeeJL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41QBXcgip8L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41HYLYpeeJL._AC_UL160_SR160,160_.jpg"
             },
             {
               "url": "https://m.media-amazon.com/images/I/41LbnyoCnmL._AC_UL160_SR160,160_.jpg"
@@ -733,16 +753,16 @@
               "url": "https://m.media-amazon.com/images/I/41L9JYh89LL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/51Skhcvqo9L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41HL0P63NOL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/51Skhcvqo9L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41HL0P63NOL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/51HXf-DWplL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41Rbamxnk+L._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/51HXf-DWplL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41Rbamxnk+L._AC_UL160_SR160,160_.jpg"
             },
             {
               "url": "https://images-eu.ssl-images-amazon.com/images/S/abs-image-upload-na/4/AmazonStores/A1PA6795UKMFR9/4ccbb8e5009070cac1944e55f8787da5.w1350.h1381._CR0,319,1350,706_SX460_QL60_.jpg"
@@ -769,43 +789,16 @@
               "url": "https://images-eu.ssl-images-amazon.com/images/I/61tCEXLW9FL._AC_UL160_SR160,160_.jpg"
             },
             {
+              "url": "https://images-eu.ssl-images-amazon.com/images/I/51cHomzmj3L._AC_UL160_SR160,160_.jpg"
+            },
+            {
               "url": "https://images-eu.ssl-images-amazon.com/images/I/71YcVjG7iPL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://images-eu.ssl-images-amazon.com/images/I/71wacH95e8L._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/51gHD+W-JKL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/41008tFoe7L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/41008tFoe7L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/51tKtlEg64L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/51tKtlEg64L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/51Skhcvqo9L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/51Skhcvqo9L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/51Nh-BXsw5L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/51Nh-BXsw5L._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/313ZQDe3nlL._AC_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/41ZJobwDCJL._AC_UL160_SR160,160_.jpg"
-            },
-            {
-              "url": "https://m.media-amazon.com/images/I/41ZJobwDCJL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/51gHD+W-JKL._AC_UL160_SR160,160_.jpg"
             },
             {
               "url": "https://m.media-amazon.com/images/I/51HXf-DWplL._AC_UL160_SR160,160_.jpg"
@@ -820,16 +813,46 @@
               "url": "https://m.media-amazon.com/images/I/41Rbamxnk+L._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/411GQKoJSCL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41CNLXyx+DL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/411GQKoJSCL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41CNLXyx+DL._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/517Jf7HcnUL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41VaAieI6-L._AC_UL160_SR160,160_.jpg"
             },
             {
-              "url": "https://m.media-amazon.com/images/I/517Jf7HcnUL._AC_UL160_SR160,160_.jpg"
+              "url": "https://m.media-amazon.com/images/I/41VaAieI6-L._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/41BnwTkWHCL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/41BnwTkWHCL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/413zML9vdOL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/413zML9vdOL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/51J9v8GtfXL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/51J9v8GtfXL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/41kqKb0x-CL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/41kqKb0x-CL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/41HYLYpeeJL._AC_UL160_SR160,160_.jpg"
+            },
+            {
+              "url": "https://m.media-amazon.com/images/I/41HYLYpeeJL._AC_UL160_SR160,160_.jpg"
             }
           ],
           "url": "https://www.amazon.de/gp/product/B071DGLNRH"
@@ -1317,7 +1340,35 @@
           ],
           "url": "https://Quin.md"
         },
-        null
+        {
+          "ogSiteName": "Meetup",
+          "ogType": "article",
+          "ogTitle": "Lead Developers Amsterdam (Amsterdam, Netherlands)",
+          "ogDescription": "A cozy meetup group for Lead Developers, Tech Leads, Chapter Leads and Senior Engineers heading towards Lead positions. We talk about:* Team structures (chapters, guilds, component teams)* Personal de",
+          "ogUrl": "https://www.meetup.com/Lead-Developers-Amsterdam/",
+          "twitterCard": "summary_large_image",
+          "twitterSite": "@meetup",
+          "twitterDescription": "A cozy meetup group for Lead Developers, Tech Leads, Chapter Leads and Senior Engineers heading towards Lead positions. We talk about:* Team structures (chapters, guilds, component teams)* Personal de",
+          "twitterAppIdiPhone": "375990038",
+          "twitterAppNameiPhone": "Meetup",
+          "twitterAppIdiPad": "375990038",
+          "twitterAppNameiPad": "Meetup",
+          "twitterAppIdGooglePlay": "com.meetup",
+          "twitterAppNameGooglePlay": "Meetup",
+          "ogImage": {
+            "url": "https://secure.meetupstatic.com/photos/event/5/f/9/a/600_467724474.jpeg",
+            "width": null,
+            "height": null,
+            "type": null
+          },
+          "twitterImage": {
+            "url": "https://secure.meetupstatic.com/photos/event/5/f/9/a/600_467724474.jpeg",
+            "width": null,
+            "height": null,
+            "alt": null
+          },
+          "url": "https://www.meetup.com/Lead-Developers-Amsterdam"
+        }
       ]
     },
     {
@@ -2914,29 +2965,7 @@
         "https://codepen.io/ivorjetski/pen/xMJoYO"
       ],
       "linkData": [
-        {
-          "twitterCard": "summary_large_image",
-          "twitterSite": "@CodePen",
-          "twitterTitle": "Pure CSS Still Life - Water and Lemons",
-          "twitterDescription": "...",
-          "ogTitle": "Pure CSS Still Life - Water and Lemons",
-          "ogUrl": "https://codepen.io/ivorjetski/details/xMJoYO",
-          "ogSiteName": "CodePen",
-          "ogDescription": "...",
-          "ogImage": {
-            "url": "https://assets.codepen.io/2262345/internal/screenshots/pens/xMJoYO.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1590009660&width=1279",
-            "width": null,
-            "height": null,
-            "type": null
-          },
-          "twitterImage": {
-            "url": "https://assets.codepen.io/2262345/internal/screenshots/pens/xMJoYO.default.png?fit=cover&format=auto&ha=false&height=720&quality=75&v=2&version=1590009660&width=1279",
-            "width": null,
-            "height": null,
-            "alt": null
-          },
-          "url": "https://codepen.io/ivorjetski/pen/xMJoYO"
-        }
+        null
       ]
     },
     {
