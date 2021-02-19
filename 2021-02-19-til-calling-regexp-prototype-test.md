@@ -1,5 +1,6 @@
 ---
 date: 2021-02-19T09:45:31.360938Z
+twitter: ["https://twitter.com/pietvanzoen/status/1362699562285154306"]
 ---
 TIL calling `RegExp.prototype.test` multiple times can return different results when the regex is a global one. 🤯
 
