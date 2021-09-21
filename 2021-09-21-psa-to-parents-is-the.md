@@ -1,5 +1,6 @@
 ---
 date: 2021-09-21T16:47:36.827190Z
+twitter: ["https://twitter.com/pietvanzoen/status/1440357367397240836"]
 ---
 PSA to parents… @OfficialBlueyTV@twitter.com is the most wholesome, delightful, and lovingly crafted kids show my 3 y/o watches and I love watching it with her. Watch it. Watch it right now.
 
