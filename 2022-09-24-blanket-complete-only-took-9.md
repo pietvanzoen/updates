@@ -1,6 +1,7 @@
 ---
 date: 2022-09-24T07:24:54.732220Z
 in_reply_to: https://twitter.com/pietvanzoen/status/1524104335449374720?s=20
+twitter: ["https://twitter.com/pietvanzoen/status/1573574583717969925?s=20"]
 ---
 BLANKET COMPLETE! Only took 9 months. 😛 ✨ 
 
