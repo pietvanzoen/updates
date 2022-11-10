@@ -1,6 +1,6 @@
 ---
 date: 2022-11-10T14:28:06.152902Z
-mastondon: ["https://mas.to/@pietvanzoen/109319982801197747"]
+mastodon: ["https://mas.to/@pietvanzoen/109319982801197747"]
 ---
 I’ve been using a flex office space recently. Pretty happy with my semi-mobile desk setup. 
 
