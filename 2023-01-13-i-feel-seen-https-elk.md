@@ -4,4 +4,4 @@ mastodon: ["https://indieweb.social/@pietvanzoen/109681068460447750"]
 ---
 I feel seen. 🚎
 
-https://elk.zone/xoxo.zone/@danbruno/109668251519764383
+https://xoxo.zone/@danbruno/109668251519764383
