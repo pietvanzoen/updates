@@ -1,5 +1,6 @@
 ---
 date: 2023-05-18T07:20:00.389377Z
+mastodon: ["https://indieweb.social/@pietvanzoen/110388488858111079"]
 ---
 Always a good day when latest Drift magazine arrives. I guess you could describe it as a travel magazine about #coffee? Really beautiful photography and articles about coffee shops, culture, and history in a given city. This month one of my favourite cities I’ve visited, Berlin! ☕️ 😊
 
