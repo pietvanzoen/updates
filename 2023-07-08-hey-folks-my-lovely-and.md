@@ -12,4 +12,4 @@ Thank you ❤️
 
 ![](/media/il_1588xN.4248032053_ama1.jpg)
 ![](/media/il_1588xN.4295265351_93e5.jpg.avif)
-![](/media/il_1588xN.4586323980_hmqa.jpg.avif)
+![](/media/il_1588xN.4586323980_hmqa.jpg)
