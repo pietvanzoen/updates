@@ -1,6 +1,7 @@
 ---
 date: 2023-08-14T05:53:01.413826Z
 mastodon: ["https://indieweb.social/@pietvanzoen/110886412703841493"]
+bsky: ["https://bsky.app/profile/pietvanzoen.bsky.social/post/3k4vjqisw4d2g"]
 ---
 I think I might be a #MinMax knitter. I only do cowls, but I’m getting really good at them. 😛
 
